@@ -6,6 +6,8 @@ metadata:
   labels:
     name: catalogue
   namespace: sock-shop
+  annotations:
+    fluxcd.io/automated: 'true'
 spec:
   replicas: 1
   selector:
@@ -36,9 +38,9 @@ spec:
           runAsUser: 10001
           capabilities:
             drop:
-              - all
+            - all
             add:
-              - NET_BIND_SERVICE
+            - NET_BIND_SERVICE
           readOnlyRootFilesystem: true
         livenessProbe:
           httpGet:
