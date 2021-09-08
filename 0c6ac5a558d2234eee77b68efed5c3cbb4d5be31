@@ -1,0 +1,1 @@
+{"jobID":"c3f7437f-1d35-4962-e869-bd7148e361d6","spec":{"type":"policy","cause":{"Message":"","User":"qian shen \u003c724895806@qq.com\u003e"},"spec":{"sock-shop:deployment/front-end":{"add":{"automated":"true"},"remove":null}}},"result":null}
