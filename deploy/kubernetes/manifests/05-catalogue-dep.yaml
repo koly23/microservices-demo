@@ -6,8 +6,6 @@ metadata:
   labels:
     name: catalogue
   namespace: sock-shop
-  annotations:
-    fluxcd.io/automated: 'true'
 spec:
   replicas: 1
   selector:
